@@ -10,7 +10,7 @@ def get_poritions_altailbroiler(*args, **kwargs):
     headers = {
         'Content-Type': 'application/json',
         'User-Id': '1160',
-        'Authorization': ''  # Вставить ключ из кабинета топвизора
+        'Authorization': 'KEY'  # Вставить вместо KEY ключ из кабинета топвизора
     }
 
     date_report = "2023-05-31"  # Поставить дату съёма позиций
